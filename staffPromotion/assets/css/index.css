@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  overflow-x: hidden;
+}
+/* .all-container{
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url("../../assets/img/hero.avif") center/cover fixed no-repeat;
+  height: 100vh;
+  width: 100%;
+} */
+.box-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.logo{
+    align-items: center;
+}
+.logo h5{
+    margin-left: 10px;
+}
+.navbar div a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.header{
+  text-transform: capitalize;
+}
+.hero-big-text{
+  margin-top: 10%;
+}
+.hero-text{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+}
+.about-work{
+  display: flex;
+  position: relative;
+  left: 10rem;
+}
+.staff-box, .hod-box, .faculty-box, .admin-box{
+  background-color: transparent;
+  width: 100%;
+  height: 20vh;
+  padding-top: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+.staff-box a button, .hod-box a button, .faculty-box a button, .admin-box a button{
+  border: none;
+  background-color: rgb(59, 59, 209);
+  width: 200px;
+  padding: 13px 0;
+  color: white;
+  position: relative;
+  top: 2rem;
+  border-radius: 15px;
+  text-transform: uppercase;
+  transition: .30s ease;
+}
+.staff-box a button:hover, .hod-box a button:hover, .faculty-box a button:hover, .admin-box a button:hover{
+  background-color: transparent;
+  border: 1px solid #ccc;
+}
+.body{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url("../img/hero-2.jpg") center/cover fixed no-repeat;
+    height: 100vh;
+    width: 100%;
+  }
+  /* upload document design */
+  .upload-container {
+    background-color: #ffffff;
+    width: 60%;
+    min-width: 27.5em;
+    padding: 3.12em 1.87em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    box-shadow: 0 1.25em 3.43em rgba(0, 0, 0, 0.08);
+    border-radius: 0.5em;
+  }
+  input[type="file"] {
+    display: none;
+  }
+  .uploadlabel{
+    display: block;
+    position: relative;
+    background-color: #8491F6;
+    border: 3px dashed rgb(41, 41, 245);
+    color: #ffffff;
+    font-size: 1.1em;
+    text-align: center;
+    width: 16em;
+    padding: 1em 0;
+    border-radius: 0.3em;
+    margin: 0 auto 1em auto;
+    cursor: pointer;
+  }
+  #image-display {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.25em;
+    flex-wrap: wrap;
+  }
+  #image-display figure {
+    width: 45%;
+  }
+  #image-display img {
+    width: 100%;
+  }
+  #image-display figcaption {
+    font-size: 0.8em;
+    text-align: center;
+    color: #5a5861;
+  }
+  .active {
+    border: 0.2em dashed #025bee;
+  }
+  #error {
+    text-align: center;
+    color: #ff3030;
+  }
+  .alert{
+    opacity: 1;
+  }
+  .all-contain{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url("../../assets/img/hero-2.jpg") center/cover fixed no-repeat;
+    height: 100vh;
+    width: 100%;
+  }
+  .input-1{
+    border: none;
+    outline: none;
+  }
+.form-1{
+  background-color: red;
+}
+ .form-1 input{
+   width: 100%;
+ }

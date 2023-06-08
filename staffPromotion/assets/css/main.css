@@ -1,0 +1,49 @@
+:root{
+    --main: #6675F4;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h5{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 30px;
+}
+.nav-item .active{
+    background-color: var(--main);
+    color: white;
+}
+.nav-list li{
+    margin: 0 20px;
+}
+.nav-list li a{
+    font-size: 20px;
+}
+.slider-inner{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url("../img/hero-2.jpg") center/cover fixed no-repeat;
+    height: 80vh;
+}
+.inner-2{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url("../img/hero-3.jpg") center/cover fixed no-repeat;
+    height: 80vh;
+}
+.hero-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-header div{
+    text-align: center;
+}
+.hero-header div{
+    color: white;
+    margin-top: 15%;
+}
+.hero-header div button{
+    border: none;
+    background-color: #4154F1;
+    color: white;
+   padding: 10px;
+}
+
